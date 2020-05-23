@@ -1,0 +1,55 @@
+
+      This is the program Viscometric-ViscoPlastic-Flow (vvpf) version 1.0.
+
+          Copyright (C) 2002 Jon E. Wallevik (jon.wallevik@ntnu.no),
+          The Norwegian University of Science and Technology (NTNU).
+
+ ---------------------------------------------------------------------------------
+
+ Viscometric-ViscoPlastic-Flow is write in Fortran 90 [ANSI X3.198-1992; 
+ ISO/IEC 1539-1:1991 (E)]. This software is a free and can be redistributed and/or
+ modified under the terms of the GNU General Public License as published by the 
+ Free Software Foundation; either version 2 of the License, or (at the users 
+ option) any later version (see copying.txt).
+
+ ---------------------------------------------------------------------------------
+
+ Documentation download:
+ https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/236410
+
+ Viscometric-ViscoPlastic-Flow (ver. 1.0) is actually two different programs. The
+ first one (vvpf10_ct34) solves the flow of viscoplastic material inside the 
+ ConTec BML Viscometer 3 (see Figure 8.15, page 197) and ConTec Viscometer 4 (see
+ Figure 9.5, page 217), both for steady state and transient cases. The second
+ software (vvpf10_c3p2) calculates the flow of a viscoplastic material inside a
+ modified cone viscometer, called C3P2 (see Figure 10.30, page 264). For the
+ latter software, only steady state cases are calculated.
+
+ Folder: "vvpf10_ct34" => See Appendix A.2 and Chapters 7, 8 and 9.
+ Folder: "vvpf10_c3p2" => See Appendix A.3 and Chapters 7 and 10.
+
+ Full reference:
+ Wallevik, J. E. (2003); Rheology of Particle Suspensions - Fresh Concrete, 
+ Mortar and Cement Paste with Various Types of Lignosulfonates (Ph.D.-thesis);
+ Department of Structural Engineering, The Norwegian University of Science and
+ Technology, ISBN 82-471-5566-4, ISSN 0809-103X.
+
+ See also:
+ Jon Elvar Wallevik, Thixotropic investigation on cement paste: experimental
+ and numerical approach, J. Non-Newtonian Fluid Mech. 132 (2005) 86 - 99.
+
+ ---------------------------------------------------------------------------------
+
+ The files that make up the software VVPF 1.0 are 
+
+ (1) main.f90
+ (2) param.f90 (is NOT present for vvpf10_c3p2)
+ (3) motion.f90
+ (4) viscous.f90
+ (5) write2f.f90
+ (6) shear.f90
+ (7) update.f90
+
+ See the top part of each corresponding source code about its purpose.
+
+ ---------------------------------------------------------------------------------
